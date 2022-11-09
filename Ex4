@@ -1,0 +1,10 @@
+let arr= [1, 2, 3];
+let arr2 = [];
+let irev= 0;
+while(irev < arr.length){
+for (let i = arr.length - 1; i >= 0; i--){
+arr2[irev] = arr[i];
+irev++;
+}
+}
+console.log(arr2)
