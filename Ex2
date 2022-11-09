@@ -1,0 +1,59 @@
+
+let perc = 89;
+let lett = " ";
+if(perc <= 100 && perc >= 97){
+    lett = "A+";
+} else {
+ if(perc < 97 && perc >= 93){
+    lett = "A";
+ } 
+} if(perc <93 && perc >= 90){
+    lett = "A-";
+    }
+else {
+    if(perc < 90 && perc >= 87){
+    lett = "B+";
+}} if(perc <87 && perc >= 83){
+    lett = "B";
+} else { if(perc <83 && perc >= 80){
+lett = "B-";}
+} if(perc < 80 && perc >= 77){
+    lett = "C+";
+}else if(perc <77 && perc >= 73){
+    lett = "C";
+}else if(perc <73 && perc >= 70){
+    lett = "C-";
+}
+else { if(perc>0 && perc < 70)
+    letter = "F"
+
+}
+switch(lett){
+    case lett = "A+": 
+    console.log("Your grade is" + perc + "which corresponds to A+. You passed!");
+    break;
+    case lett = "A-":
+    console.log("Your grade is" + perc + "which corresponds to A. You passed!");
+    break;
+    case lett = "B+":
+    console.log("Your grade is" + perc + "which corresponds to B+. You passed!");
+    break;
+    case lett = "B":
+    console.log("Your grade is" + perc + "which corresponds to B. You passed!");
+    break;
+    case lett = "B-": 
+     console.log("Your grade is" + perc + "which corresponds to B-. You passed!");
+    break;
+    case lett = "C+":
+     console.log("Your grade is" + perc + "which corresponds to C+. You passed!");
+    break; 
+    case lett = "C":
+    console.log("Your grade is" + perc + "which corresponds to C. You passed!");
+    break ; 
+    case lett = "C-":
+    console.log("Your grade is" + perc + "which corresponds to C-. You passed!");
+    break ;
+    case lett = "F": 
+    console.log("Your grade is" + perc + "which corresponds to D-. You failed");
+    break;
+}
