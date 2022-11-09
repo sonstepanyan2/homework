@@ -1,4 +1,5 @@
-et perc = 89;
+
+let perc = 89;
 let lett = " ";
 if(perc <= 100 && perc >= 97){
     lett = "A+";
@@ -25,9 +26,9 @@ lett = "B-";}
 } if(perc < 70 && perc >= 67){
     lett = "D+";
 }else if(perc <67 && perc >= 63){
-    lett = "C";
+    lett = "D";
 }else if(perc <63 && perc >= 60){
-    lett = "C-";
+    lett = "D-";
 }
 else { if(perc>0 && perc < 60)
     letter = "F"
