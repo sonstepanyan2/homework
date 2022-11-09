@@ -1,0 +1,14 @@
+let num = 20;
+let remainder = " ";
+let result = " ";
+
+while(num > 0){
+remainder = remainder + num % 2;
+num = Math.floor(num / 2);
+}
+let i = remainder.length - 1;
+while (i >= 0) {
+    result = result +remainder[i];
+    i--;
+}
+console.log(result);
